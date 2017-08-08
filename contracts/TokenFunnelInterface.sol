@@ -39,11 +39,12 @@ contract TokenFunnelInterface {
   */
   function spread(uint256 _amount);
 
-  //trigger when msg.sender contribute to this loan.
-  event Focus(uint256 _amount);
-  //trigger when borrower payback his due.
-  event Spread(uint256 _amount);
-  //trigger when msg.sender withdraw from this loan.
+  //trigger when msg.sender deposit tokens
+  event Deposit(uint256 _amount);
+  //trigger when msg.sender withdraw tokens
   event Withdraw(uint256 _amount);
-
+  //trigger when msg.sender active focus.
+  event Focus(uint256 _amount);
+  //trigger when msg.sender active spread.
+  event Spread(uint256 _amount);
 }
