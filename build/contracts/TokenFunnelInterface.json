@@ -1,0 +1,141 @@
+{
+  "contract_name": "TokenFunnelInterface",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "withdraw",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "spread",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "deposit",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "root",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "leaf",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "focus",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "token",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "_amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "Focus",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "_amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "Spread",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "_amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "Withdraw",
+      "type": "event"
+    }
+  ],
+  "unlinked_binary": "0x",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1502155911849
+}
